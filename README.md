@@ -13,5 +13,8 @@ yarn add @prisma/client
 ### -->Para criar as tabelas
 yarn prisma migrate dev
 
+### -->O que é criado no Schema reflita no index.js
+yarn prisma generate
+
 ### -->Web
 yarn prisma studio
